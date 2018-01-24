@@ -1,0 +1,162 @@
+    <!DOCTYPE html>
+    <html lang="fr">
+
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1" media="(device-height: 568px)">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <![endif]-->
+
+    <title>Tia</title>   
+    </head>
+    <style type="text/css">
+
+
+    </style>
+
+    <body>
+
+
+    <div class="container">
+
+
+
+    <header class="slideRight">
+    <!-- gray overlay -->
+    <div id="wrapperx">
+
+
+    </div>
+
+    <!--  Add "slideRight" class to items that move right when viewing Nav Drawer  -->
+    <ul id="navToggle" class="burger slideRight">
+
+    <!--  Add "slideRight" class to items that move right when viewing Nav Drawer  -->
+    <li></li>
+    <li></li>
+    <li></li>
+    </ul>
+
+
+    <div id= "menuicon"> 
+
+    <span id="carticon"><a href="#">
+    <!-- svg -->
+    <img src="images/carticon.svg">
+    </a></span>
+
+
+    <span id="usericon"><a href="#">
+    <!-- svg -->
+    <img class="usericon" src="images/usericon.svg">
+    </a>
+    </span> 
+      <form id="Searcho">
+    <input type="search" autocomplete="off" class="Search-box" name="Search-box" id="Search-box" placeholder="Recherche">
+    <label for="Search-box" class="Search-box-label">
+    <span class="Search-icon">Search</span>
+    </label>
+    <span class="Search-close">
+    <i class="Search-close-icon">Close</i>
+    </span>
+    </form>             
+
+    </div>
+
+    <!-- drop --> 
+
+    <!-- desktop logo -->
+    <div id="logodesktop"><img class="logodesk" src="images/logo.png"></div>
+
+    </header>
+
+
+
+    <nav class="slideLeft">
+
+    <ul>
+    <li id="brand"></li>
+    <li><a href="index.html" class="active">Accueil</a></li>
+    <li><a href="#">Petit dej</a></li>
+    <li><a href="#">Desserts</a></li>
+    <li><a href="#">Plats</a></li>
+    <li><a href="#">En restau</a></li>
+    <li><a href="#">Revues</a></li>
+    <li><a href="#">contact</a></li>
+    <li><a href="#">Services</a></li>
+    <li><a href="#">Paquets</a></li>
+
+
+    </ul>
+    </nav>
+
+
+    <span class="go-top"> 
+    <a href="#">
+    <!-- svg -->
+    <img src="images/backtop.svg">
+    </a>
+    </span>
+
+
+    <div class="content slideRight">
+    <!--  Add "slideRight" class to items that move right when viewing Nav Drawer  -->
+
+    <ul class="responsive">
+
+    <div id="wrapperxbody">
+
+    <!-- gray overlay -->
+    </div> 
+
+    <div class="main">
+
+    <img src="images/Penguins.jpg" width="100%">
+    <!-- <p>g gid afij dfknnzdjn asdjfnsadf kjafdfg kjasfhfiouanssfiuunas iausf ijasff giou isfjnioa iounarg fiu fig idaf  g gid afij dfknnzdjn asdjfnsadf kjafdfg kjasfhfiouanssfiuunas iausf ijasff giou isfjnioa iounarg fiu fig idaf  g gid afij dfknnzdjn asdjfnsadf kjafdfg kjasfhfiouanssfiuunas iausf ijasff giou isfjnioa iounarg fiu fig idaf  g gid afij dfknnzdjn asdjfnsadf kjafdfg kjasfhfiouanssfiuunas iausf ijasff giou isfjnioa iounarg fiu fig idaf  g gid afij dfknnzdjn asdjfnsadf kjafdfg kjasfhfiouanssfiuunas iausf ijasff giou isfjnioa iounarg fiu fig idaf g gid afij dfknnzdjn asdjfnsadf kjafdfg kjasfhfiouanssfiuunas iausf ijasff giou isfjnioa iounarg fiu fig idaf
+    isfjnioa iounarg fiu fig idaf  g gid afij dfknnzdjn asdjfnsadf kjafdfg kjasfhfiouanssfiuunas iausf ijasff giou isfjnioa iounarg fiu fig idaf  g gid afij dfknnzdjn asdjfnsadf kjafdfg kjasfhfiouanssfiuunas iausf ijasff giou isfjnioa iounarg fiu fig idaf  g gid afij dfknnzdjn asdjfnsadf kjafdfg kjasfhfiouanssfiuunas iausf ijasff giou isfjnioa iounarg fiu fig idaf g gid afij dfknnzdjn asdjfnsadf kjafdfg kjasfhfiouanssfiuunas iausf ijasff giou isfjnioa iounarg fiu fig idaf
+    </p> -->
+
+    </div>
+
+
+    </ul>
+
+    </div>
+    <!-- wrapperx rgba .4-->
+    </div>
+    </body>
+    </html>   
+
+    <script  src="js/index.js"></script>
+    <script type="text/javascript">
+
+
+    /*scroll to top*/
+    $(document).ready(function() {
+    // Show or hide the sticky footer button
+    $(window).scroll(function() {
+    if ($(this).scrollTop() > 300) {
+    $('.go-top').fadeIn(200);
+    } else {
+    $('.go-top').fadeOut(200);
+    }
+    });
+
+    // Animate the scroll to top
+    $('.go-top').click(function(event) {
+    event.preventDefault();
+
+    $('html, body').animate({scrollTop: 0}, 300);
+    })
+
+    });
+
+    </script>
+
+
