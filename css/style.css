@@ -32,9 +32,9 @@
 	-webkit-transform: translateY(-100%);
 	transform: translateY(-100%);
 	opacity: 0;
-	-webkit-transition: -webkit-transform ease 60ms;transition: -webkit-transform ease 60ms;
-	transition: transform ease 60ms;
-	transition: transform ease 60ms, -webkit-transform ease 60ms;
+	-webkit-transition: -webkit-transform ease 30ms;transition: -webkit-transform ease 30ms;
+	transition: transform ease 30ms;
+	transition: transform ease 30ms, -webkit-transform ease 30ms;
 	}
 	.Search-box:focus {
 	-webkit-transform: translateY(0);
@@ -58,8 +58,8 @@
 	cursor: pointer;
 	height: 100%;
 	width: 3rem;
-	-webkit-transition: opacity ease 60ms 60ms;
-	transition: opacity ease 60ms 60ms;
+	-webkit-transition: opacity ease 30ms 30ms;
+	transition: opacity ease 30ms 30ms;
 	}
 
 	.Search-close {
