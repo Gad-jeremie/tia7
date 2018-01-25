@@ -14,12 +14,12 @@
 	-ms-text-size-adjust: none;
 	-ms-font-smoothing: antialiased;
 	}
-
+    
 
 
 	.Search-box {
 	float: right;
-	width: 290px;
+	width: 500px;
 	height: 50px;
 	border: 1px solid transparent;
 	position: absolute;
@@ -65,6 +65,7 @@
 	.Search-close {
 	opacity: 0;
 	z-index: 0;
+	top:.55em;
 	}
 
 
@@ -329,8 +330,16 @@
 
 	@media only screen and (max-width: 780px) {
 
+	.Search-close {
+	opacity: 0;
+	z-index: 0;
+	top:0em;
+	}
+
+
 	.Search-box {
-	top: -.6em!important; 
+	top: -.5em!important; 
+	width: 280px!important;
 	}
 
 	.main p{
