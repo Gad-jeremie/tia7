@@ -58,8 +58,8 @@
 	cursor: pointer;
 	height: 100%;
 	width: 3rem;
-	-webkit-transition: opacity ease 70ms 70ms;
-	transition: opacity ease 70ms 70ms;
+	-webkit-transition: opacity ease 60ms 60ms;
+	transition: opacity ease 60ms 60ms;
 	}
 
 	.Search-close {
