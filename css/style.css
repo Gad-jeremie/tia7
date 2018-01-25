@@ -32,9 +32,9 @@
 	-webkit-transform: translateY(-100%);
 	transform: translateY(-100%);
 	opacity: 0;
-	-webkit-transition: -webkit-transform ease 100ms;transition: -webkit-transform ease 100ms;
-	transition: transform ease 100ms;
-	transition: transform ease 100ms, -webkit-transform ease 100ms;
+	-webkit-transition: -webkit-transform ease 60ms;transition: -webkit-transform ease 60ms;
+	transition: transform ease 60ms;
+	transition: transform ease 60ms, -webkit-transform ease 60ms;
 	}
 	.Search-box:focus {
 	-webkit-transform: translateY(0);
