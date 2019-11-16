@@ -1,0 +1,47 @@
+body{
+margin:0;
+padding:0;
+border:0;
+width:100%;
+text-align: center;
+}
+
+section{
+    background: #fff;
+    width: 80%;
+    height: auto;
+    margin: 20px auto;
+    padding: 15px 0 15px 0;
+}
+
+h1,h2{
+    text-decoration: underline;
+}
+
+li{
+list-style:none;
+}
+
+#contenu{
+margin: 0 auto;
+width:50%;
+min-height: 100%;
+background:#eaeaea;
+}
+
+header {
+background: pink;
+padding: 8px;
+}
+
+
+.photo img{
+    width: 55%;
+    margin: 40px auto;
+    display: block;
+    border-radius: 100%;
+}
+
+footer{
+    padding-bottom:20px;
+}
